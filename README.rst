@@ -17,14 +17,9 @@ Concurrently_, `GNU Parallel`_, and rust-parallel_.
 It's fast, too.
 
 Para consists of a single source file, is written in C99_, only depends on
-the C standard library, and compiles with `-Wall -Wextra -Werror`. It
+the C standard library, and compiles with ``-Wall -Wextra -Werror``. It
 should work on almost every Unix-like system and is easy to integrate into
 C-based projects.
-
-.. _C99: https://en.cppreference.com/w/c/99
-.. _Concurrently: https://github.com/open-cli-tools/concurrently
-.. _`GNU Parallel`: https://www.gnu.org/software/parallel/
-.. _rust-parallel: https://github.com/aaronriekenberg/rust-parallel
 
 
 Examples
@@ -49,7 +44,7 @@ Continue even though ``false`` exits with a non-zero status::
     para: false[31744] exited with status 1
     foo
 
-Add `foo=bar` and `baz=qux` to the job environment::
+Add ``foo=bar`` and ``baz=qux`` to the job environment::
 
     $ para foo=bar baz=qux "sh -c 'echo \$foo'" "sh -c 'echo \$baz'"
     bar
@@ -66,7 +61,7 @@ Colorize output:
       s/\(^bar:\)\(.*\)/$cyan\1$reset\2/;
     "
 
-Rename files from `{x}.foo` to `{x}.bar`:
+Rename files from ``{x}.foo`` to ``{x}.bar``:
 
 .. code:: bash
 
@@ -111,7 +106,7 @@ these dependencies if needed.
 Installation
 ============
 
-See `INSTALL.rst`.
+See ``INSTALL.rst``.
 
 
 Documentation
@@ -156,10 +151,14 @@ License for more details.
 You should have received a copy of the GNU General Public License
 along with Para. If not, see <https://www.gnu.org/licenses/>.
 
-
+.. _C99: https://en.cppreference.com/w/c/99
+.. _Concurrently: https://github.com/open-cli-tools/concurrently
 .. _Clang: https://clang.llvm.org/
 .. _GCC: https://gcc.gnu.org/
 .. _`GNU Binutils`: https://www.gnu.org/software/binutils/
 .. _`GNU Make`: https://www.gnu.org/software/make/
+.. _`GNU Parallel`: https://www.gnu.org/software/parallel/
 .. _`home page`: https://odkr.codeberg.page/para
 .. _manual: https://odkr.codeberg.page/para/manual
+.. _POSIX.1-2008: https://pubs.opengroup.org/onlinepubs/9699919799.2008edition/
+.. _rust-parallel: https://github.com/aaronriekenberg/rust-parallel
