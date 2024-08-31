@@ -79,7 +79,7 @@ Rename files from `{x}.foo` to `{x}.bar`:
     xargs -0 -n256 para
 
 If no filename contains meta-characters
-(i.e., :samp:`"`, :samp:`'`, and :samp:`\\`):
+(i.e., '"', "'", and "\\"):
 
 .. code:: bash
 
