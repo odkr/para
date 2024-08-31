@@ -30,7 +30,7 @@ C-based projects.
 Examples
 ========
 
-Run :command:`echo foo` and :command:`echo bar` in parallel::
+Run ``echo foo`` and ``echo bar`` in parallel::
 
     $ para 'echo foo' 'echo bar'
     bar
@@ -43,7 +43,7 @@ Suppress job output, but show which jobs have been started::
     para: [31747] echo bar
     para: 2 jobs completed
 
-Continue even though :command:`false` exits with a non-zero status::
+Continue even though ``false`` exits with a non-zero status::
 
     $ para -c 'false' 'echo foo' 
     para: false[31744] exited with status 1
@@ -108,12 +108,6 @@ Compiling Para requires:
 Para comes with a script that installs
 these dependencies if needed.
 
-.. _Clang: https://clang.llvm.org/
-.. _GCC: https://gcc.gnu.org/
-.. _`GNU Binutils`: https://www.gnu.org/software/binutils/
-.. _`GNU Make`: https://www.gnu.org/software/make/
-
-
 Installation
 ============
 
@@ -123,10 +117,7 @@ See :file:`INSTALL.rst`.
 Documentation
 =============
 
-See the `home page`_, the manual_, and :command:`para -h`.
-
-.. _`home page`: https://odkr.codeberg.page/para
-.. _manual: https://odkr.codeberg.page/para/manual
+See the `home page`_, the manual_, and ``para -h``.
 
 
 Contact
@@ -164,3 +155,11 @@ License for more details.
 
 You should have received a copy of the GNU General Public License
 along with Para. If not, see <https://www.gnu.org/licenses/>.
+
+
+.. _Clang: https://clang.llvm.org/
+.. _GCC: https://gcc.gnu.org/
+.. _`GNU Binutils`: https://www.gnu.org/software/binutils/
+.. _`GNU Make`: https://www.gnu.org/software/make/
+.. _`home page`: https://odkr.codeberg.page/para
+.. _manual: https://odkr.codeberg.page/para/manual
