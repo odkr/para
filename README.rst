@@ -17,7 +17,7 @@ Concurrently_, `GNU Parallel`_, and rust-parallel_.
 It's fast, too.
 
 Para consists of a single source file, is written in C99_, only depends on
-the C standard library, and compiles with :option:`-Wall -Wextra -Werror`. It
+the C standard library, and compiles with `-Wall -Wextra -Werror`. It
 should work on almost every Unix-like system and is easy to integrate into
 C-based projects.
 
@@ -66,7 +66,7 @@ Colorize output:
       s/\(^bar:\)\(.*\)/$cyan\1$reset\2/;
     "
 
-Rename files from :file:`{x}.foo` to :file:`{x}.bar`:
+Rename files from `{x}.foo` to `{x}.bar`:
 
 .. code:: bash
 
@@ -111,7 +111,7 @@ these dependencies if needed.
 Installation
 ============
 
-See :file:`INSTALL.rst`.
+See `INSTALL.rst`.
 
 
 Documentation
