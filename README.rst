@@ -151,6 +151,7 @@ License for more details.
 You should have received a copy of the GNU General Public License
 along with Para. If not, see <https://www.gnu.org/licenses/>.
 
+.. _4.4BSD: https://docs-legacy.freebsd.org/44doc/
 .. _C99: https://en.cppreference.com/w/c/99
 .. _Concurrently: https://github.com/open-cli-tools/concurrently
 .. _Clang: https://clang.llvm.org/
