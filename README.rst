@@ -106,7 +106,7 @@ these dependencies if needed.
 Installation
 ============
 
-See ``INSTALL.rst``.
+See <odkr.codeberg.page/para/install>.
 
 
 Documentation
