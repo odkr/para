@@ -13,9 +13,8 @@ Versions
 
 Only the most recent version of Para receives security updates.
 
-.. tip::
-    Subscribe to https://codeberg.org/odkr/para/releases.rss
-    to be notified about new releases.
+Subscribe to https://codeberg.org/odkr/para/releases.rss
+to be notified about new releases.
 
 
 Reporting
