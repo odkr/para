@@ -5,7 +5,7 @@ Security
 Caveats
 =======
 
-Para is *not* intended to run at a trust boundary.
+Para is not intended to run at a trust boundary.
 
 
 Versions
