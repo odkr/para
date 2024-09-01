@@ -106,7 +106,7 @@ these dependencies if needed.
 Installation
 ============
 
-See <odkr.codeberg.page/para/install>.
+See <https://odkr.codeberg.page/para/install>.
 
 
 Documentation
