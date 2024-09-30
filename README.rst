@@ -82,7 +82,7 @@ See **INSTALL.rst**.
 Documentation
 =============
 
-See the `home page`_, the manual_, and :command:`para -h`.
+See the `home page`_, the manual_, and **para -h**.
 
 .. _`home page`: https://odkr.codeberg.page/para
 .. _manual: https://odkr.codeberg.page/para/manual
