@@ -6,8 +6,7 @@ Caveats
 =======
 
 Para, to state the obvious, runs applications. It should not be run at
-a trust boundary, for the same reason that **sh** should not be run
-at a trust boundary.
+a trust boundary.
 
 
 Versions
