@@ -13,9 +13,9 @@ It is simpler, more lightweight, and more portable than
 Concurrently_, `GNU Parallel`_, and rust-parallel_.
 It's fast, too.
 
-Para comprises a single source file, is written in C99_, only depends on
-the C standard library, and compiles with **-Wall -Wextra -Werror**.
-It should work out-of-the-box on almost every Unix-like system and is
+Para comprises a single source file, is written in C99_, only uses the
+Unix standard library, and compiles with :option:`-Wall -Wextra -Werror`.
+It should work out-of-the-box on almost every Unix-like system and be
 easy to integrate into C-based projects.
 
 .. _C99: https://en.cppreference.com/w/c/99
@@ -33,12 +33,12 @@ Run **echo foo** and **echo bar** in parallel::
     bar
     foo
 
-Suppress job output, but show which jobs have been started::
+Compose commands from arguments::
 
-    $ para -sv 'echo foo' 'echo bar'
-    para: [31744] echo foo
-    para: [31747] echo bar
-    para: 2 jobs succeeded, 0 failed
+    $ para -k 'echo {}' foo bar baz
+    foo
+    bar
+    baz
 
 Add ``FOO=bar`` and ``BAZ=qux`` to the job environment::
 
@@ -52,12 +52,13 @@ Requirements
 
 Para should work on almost every Unix-like system. More precisely, it
 should work on every system that complies with POSIX.1-2008_, including the
-X/Open System Interface and Spawn extensions.
+X/Open System Interface and Spawn extensions. It has been tested
+on Alpine Linux, Debian, Darwin, FreeBSD, NetBSD, and OpenBSD.
 
 Compiling Para requires:
 
 * A C compiler that supports C99_
-  (e.g., GCC_ ≥ v4.3 or Clang_ ≥ v1.0)
+  (e.g., GCC_ ≥ v4.3, Clang_ ≥ v1.0, or TinyCC_ ≥ v0.9)
 * An assembler and a linker
   (e.g., from `GNU Binutils`_ or a BSD system)
 * Make (`GNU Make`_ and BSD makes are known to work)
@@ -71,6 +72,7 @@ these dependencies if needed.
 .. _`GNU Binutils`: https://www.gnu.org/software/binutils/
 .. _`GNU Make`: https://www.gnu.org/software/make/
 .. _POSIX.1-2008: https://pubs.opengroup.org/onlinepubs/9699919799.2008edition/
+.. _TinyCC: http://tinycc.org/
 
 
 Installation
