@@ -92,8 +92,6 @@ Source code (primary): <https://codeberg.org/odkr/para>
 
 Source code (mirror): <https://repo.or.cz/para.git>
 
-The GitHub repository only hosts discussions and the issue tracker.
-
 
 ## License
 
