@@ -42,7 +42,7 @@ bar
 baz
 ```
 
-Add ``FOO=bar`` and ``BAZ=qux`` to the job environment:
+Add ``FOO=bar`` to the job environment:
 
 ```
 $ para FOO=bar 'sh -c "echo $FOO"'
