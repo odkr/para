@@ -19,7 +19,7 @@ It's fast, too.
 > The GitHub repository only hosts [discussions](https://github.com/odkr/para/discussions)
 > and the [issue tracker](https://github.com/odkr/para/issues).
 > 
-> * [Download Para](https://odkr.codeberg.page/para/install.html)
+> * [Download Para](https://odkr.codeberg.page/para/quick)
 > * [Get the source code](https://codeberg.org/odkr/para)
 
 
