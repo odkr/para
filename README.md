@@ -58,7 +58,7 @@ Debian, Darwin, FreeBSD, NetBSD, and OpenBSD.
 
 Compiling Para requires:
 
-* A C compiler that supports C99_
+* A C compiler that supports [C99](https://en.cppreference.com/w/c/99)
   (e.g., [GCC](https://gcc.gnu.org/) ≥ v4.3,
          [Clang](https://clang.llvm.org/) ≥ v1.0, or
          [TinyCC](http://tinycc.org/) ≥ v0.9)
